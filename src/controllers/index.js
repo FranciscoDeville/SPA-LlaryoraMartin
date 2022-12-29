@@ -1,9 +1,12 @@
 import Home from './home.controller'
 import Posts from './posts.controller'
-import notFound from './notFound.controller'
+import NotFound from './notFound.controller'
+import FormSuggestion from './formSuggestion.controller'
 
 export const pages = {
     home: Home,
     posts: Posts,
-    notFound: notFound
+    notFound: NotFound,
+    form: FormSuggestion
+    //formSuggestion: FormSuggestion,
 }
